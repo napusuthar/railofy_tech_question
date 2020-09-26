@@ -69,21 +69,21 @@ function makeCurry(curryArray){
         return 'noLuck';
     }   
 
-    let result = '';
+    let res = '';
 
     result.curry.forEach(c => {
         if(c == 1){
-            result += 'P';
+            res += 'P';
         }
         else if(c == 2){
-            result += 'Q';
+            res += 'Q';
         }
         else{
-            result += 'R';
+            res += 'R';
         }
     })
 
-    return result;
+    return res;
 
 }
 
